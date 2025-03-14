@@ -31,9 +31,9 @@ extern "C" {
  * GLOBAL PROTOTYPES
  **********************/
 
-#define HOME_SLIDER_BOX_WIDTH 155
+#define HOME_SLIDER_BOX_WIDTH 250
 
-lv_obj_t * home_create(lv_obj_t * parent);
+lv_obj_t * home_create(lv_obj_t * parent, const char * text_label);
 /**********************
  *      MACROS
  **********************/

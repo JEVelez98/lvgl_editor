@@ -47,7 +47,7 @@ lv_obj_t * scratchpad_create(lv_obj_t * parent)
 
     lv_obj_t * lv_obj = lv_obj_create(parent);
 
-    lv_obj_set_width(lv_obj, lv_pct(50));
+    lv_obj_set_width(lv_obj, lv_pct(100));
     lv_obj_set_height(lv_obj, lv_pct(100));
     lv_obj_set_flex_flow(lv_obj, LV_FLEX_FLOW_COLUMN);
     lv_obj_set_style_bg_color(lv_obj, lv_color_hex(0x114488), LV_PART_MAIN | LV_STATE_DEFAULT);
